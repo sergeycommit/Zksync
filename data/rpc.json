@@ -1,0 +1,114 @@
+{
+  "ethereum": {
+    "rpc": [
+      "https://rpc.ankr.com/eth"
+    ],
+    "explorer": "https://etherscan.io/tx/",
+    "token": "ETH",
+    "chain_id": 1
+  },
+  "arbitrum": {
+    "rpc": [
+      "https://rpc.ankr.com/arbitrum"
+    ],
+    "explorer": "https://arbiscan.io/tx/",
+    "token": "ETH",
+    "chain_id": 42161
+  },
+  "optimism": {
+    "rpc": [
+      "https://rpc.ankr.com/optimism"
+    ],
+    "explorer": "https://optimistic.etherscan.io/tx/",
+    "token": "ETH",
+    "chain_id": 10
+  },
+  "polygon_zkevm": {
+    "rpc": [
+      "https://rpc.ankr.com/polygon_zkevm"
+    ],
+    "explorer": "https://zkevm.polygonscan.com/tx/",
+    "token": "ETH",
+    "chain_id": 1101
+  },
+  "zksync": {
+    "rpc": [
+      "https://mainnet.era.zksync.io"
+    ],
+    "explorer": "https://explorer.zksync.io/tx/",
+    "token": "ETH",
+    "chain_id": 324
+  },
+  "bsc": {
+    "rpc": ["https://rpc.ankr.com/bsc/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806"],
+    "scan": "https://bscscan.com/tx",
+    "token": "BNB",
+    "chain_id": 56
+  },
+  "polygon": {
+    "rpc": ["https://rpc.ankr.com/polygon/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806"],
+    "scan": "https://polygonscan.com/tx",
+    "token": "MATIC",
+    "chain_id": 137
+  },
+  "avalanche": {
+    "rpc": ["https://rpc.ankr.com/avalanche/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806"],
+    "scan": "https://snowtrace.io/tx",
+    "token": "AVAX",
+    "chain_id": 43114
+  },
+  "fantom": {
+    "rpc": ["https://rpc.ankr.com/fantom"],
+    "scan": "https://ftmscan.com/tx",
+    "token": "FTM",
+    "chain_id": 250
+  },
+  "nova": {
+    "rpc": ["https://rpc.ankr.com/arbitrumnova"],
+    "scan": "https://nova.arbiscan.io/tx",
+    "token": "ETH",
+    "chain_id": 42170
+  },
+  "celo": {
+    "rpc": ["https://rpc.ankr.com/celo"],
+    "scan": "https://celoscan.io/tx",
+    "token": "CELO",
+    "chain_id": 42220
+  },
+  "gnosis": {
+    "rpc": ["https://rpc.ankr.com/gnosis"],
+    "scan": "https://gnosisscan.io/tx",
+    "token": "xDAI",
+    "chain_id": 100
+  },
+  "core": {
+    "rpc": ["https://rpc.coredao.org"],
+    "scan": "https://scan.coredao.org/tx",
+    "token": "CORE",
+    "chain_id": 1116
+  },
+  "harmony": {
+    "rpc": ["https://rpc.ankr.com/harmony"],
+    "scan": "https://explorer.harmony.one/tx",
+    "token": "ONE",
+    "chain_id": 1666600000
+  },
+  "moonbeam": {
+    "rpc": ["https://rpc.ankr.com/moonbeam"],
+    "scan": "https://moonscan.io/tx",
+    "token": "GLMR",
+    "chain_id": 1284
+  },
+  "moonriver": {
+    "rpc": ["https://moonriver.public.blastapi.io"],
+    "scan": "https://moonriver.moonscan.io/tx",
+    "token": "MOVR",
+    "chain_id": 1285
+  },
+  "fuse": {
+    "rpc": ["https://fuse.api.onfinality.io/public"],
+    "scan": "https://explorer.fuse.io/tx",
+    "token": "FUSE",
+    "chain_id": 122
+  }
+}
